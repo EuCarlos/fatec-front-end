@@ -32,7 +32,7 @@
 .vaga-empresa > form { display: flex; flex-direction: row; }
 .botoes-vagas { display:flex; flex-direction: column; justify-content: center; align-items: center; }
 
-.botoes-vagas button { 
+.botoes-vagas .button-vagas { 
     background: black; 
     color: var(--cor-branco); 
     margin: .5rem 1.5rem;
@@ -54,6 +54,14 @@
 }
 
 .tabela .input { width: 100%; height: 1rem; }
+
+.tabela .input-requisito {
+    width: 100%;
+    height: 5rem;
+
+    border: solid 3px var(--cor-cinza);
+    outline: none;
+}
 
 /* RESPONSIVIDADE */
 @media (max-width: 1150px) {
