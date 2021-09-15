@@ -55,35 +55,56 @@
                         <table class="border-table">
                             <tr>
                                 <td colspan="2">
-                                    <label for="">Nome da Empresa</label>
-                                    <br><input type="text" name="" id="" class="input">
+                                    <label for="nome-da-empresa">Nome da Empresa</label>
+                                    <br><input type="text" name="" id="nome-da-empresa" class="input">
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <label for="">Nome da Vaga</label>
-                                    <br><input type="text" name="" id="" class="input">
+                                    <label for="nome-da-vaga">Nome da Vaga</label>
+                                    <br><input type="text" name="" id="nome-da-vaga" class="input">
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <label for="">Regime do Estágio (Horário e dias da Semana)</label>
-                                    <br><input type="text" name="" id="" class="input">
+                                    <label for="horario">Regime do Estágio (Horário e dias da Semana)</label>
+                                    <br><input type="text" name="" id="horario" class="input">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <label for="">Curso de Interesse</label>
+                                    <label for="select-curso">Curso de Interesse</label>
                                     <br><select class="input" aria-label="Default select example" id="select-curso" name="curso"></select>
                                 </td>
                                 <td>
                                     <label for="">Quantidade de Vagas</label>
-                                    <!-- <br><input type="number" name="" id="" class="input"> -->
                                     <div class="quantidade">
                                         <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
                                         <input type="number" id="number" value="1" />
                                         <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
                                     </div>
+                                </td>
+                            </tr>
+                            <!-- Cidade/Telefone/Campo para receber imagem -->
+                            <tr>
+                                <td colspan="2">
+                                    <label for="cidade">Cidade</label>
+                                    <br><input type="text" name="" id="cidade" class="input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label for="telefone">Telefone</label>
+                                    <br><input type="text" name="" id="telefone" class="input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label for="imagem">Imagem</label><br>
+                                    <label class="input-upload center">
+                                        <input type="file" name="" id=""> <!-- ENTRADA DE IMAGEM -->
+                                        ESCOLHER IMAGEM
+                                    </label>
                                 </td>
                             </tr>
                             <tr>
